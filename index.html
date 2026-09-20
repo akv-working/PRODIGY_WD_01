@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oceanic — Marine Conservation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Oceanic</a>
+
+      <button class="menu-toggle" id="menuBtn" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#initiatives" class="nav-link">Initiatives</a></li>
+          <li><a href="#contact" class="nav-btn">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Protecting Our Oceans for Tomorrow</h1>
+      <p>
+        Join our mission to restore marine habitats, reduce coastal plastic pollution, and support local fishing communities worldwide.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">Our Projects</a>
+        <a href="#about" class="btn btn-secondary">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>About Our Mission</h2>
+        <p>Combining marine science and community action to keep our seas healthy.</p>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">🔬</div>
+          <h3>Science-Driven</h3>
+          <p>We work with oceanographers to track coral health, water temperature, and coastal biodiversity.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🤝</div>
+          <h3>Local Partnerships</h3>
+          <p>Partnering directly with coastal towns and dive groups for long-term habitat stewardship.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🌱</div>
+          <h3>Direct Action</h3>
+          <p>Organizing weekly coastal cleanups and nursery-grown coral outplanting across vulnerable reefs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projectssss Section -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-title">
+        <h2>Active Projects</h2>
+        <p>Key field projects currently making an impact.</p>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card">
+          <h3>Coral Nursery Revival</h3>
+          <p>Growing heat-resilient coral micro-fragments to replant degraded reefs in the Indo-Pacific.</p>
+        </div>
+        <div class="card">
+          <h3>River Plastic Barriers</h3>
+          <p>Deploying solar barrier grids in estuaries to intercept plastic before it hits open water.</p>
+        </div>
+        <div class="card">
+          <h3>Seagrass Blue Carbon</h3>
+          <p>Mapping and replanting shallow seagrass meadows that capture carbon and shelter marine life.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Initiatives Section -->
+  <section id="initiatives" class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Initiatives</h2>
+        <p>Building awareness and long-term coastal protection.</p>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card">
+          <h3>Marine Sanctuaries</h3>
+          <p>Advocating for protected marine zones that give fish populations room to recover.</p>
+        </div>
+        <div class="card">
+          <h3>Youth Ocean Camps</h3>
+          <p>Hands-on workshops teaching students and young divers about marine ecology.</p>
+        </div>
+        <div class="card">
+          <h3>Beach Cleanups</h3>
+          <p>Mobilizing local volunteers every weekend to clear trash along sensitive shores.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact me Section -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-title">
+        <h2>Get in Touch</h2>
+        <p>Want to volunteer, donate, or ask a question? Drop us a note.</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <form id="contactForm" class="contact-form">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-row">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-row">
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" id="submitBtn" class="btn btn-primary">Send Message</button>
+          <div id="formStatus" class="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Oceanic Project. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
