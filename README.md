@@ -11,5 +11,5 @@ This site showcases a marine conservation initiative with sections for mission, 
 - Dynamic footer year auto‑updated via JavaScript
 
 ## 🚀 Live Demo
-Once GitHub Pages is enabled, the site will be available at:  
+- https://akv-working.github.io/PRODIGY_WD_01/
 
